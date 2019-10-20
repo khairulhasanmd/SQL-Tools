@@ -1,1 +1,2 @@
 # SQL-Tools
+A collection of python script to separate a big mysql exported .sql file to triggers, foreign keys create table and import. I had errors to upload a big sql to mysql. That is why i created these scripts.

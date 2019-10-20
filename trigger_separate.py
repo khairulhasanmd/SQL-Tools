@@ -11,7 +11,7 @@ for line in lines:
     if found_some_statement == 1:
         #print line
         trigger_file.write(line)
-    if ";" in line:
+    if "DELIMITER ;" in line:
         found_some_statement = 0
 
 print "done"
